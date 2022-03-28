@@ -1,0 +1,18 @@
+Teste de GIT
+Se você é do universo de TI ou trabalha com desenvolvimento de software, muito, muito provavelmente, 
+você já deve ter ouvido falar sobre Git e sobre GitHub. Se você ainda não faz ideia do que são, ou se ainda tem dúvidas sobre alguns conceitos, 
+esse post é para você!
+
+Git é uma ferramenta de versionamento de código, mas, se versionamento te pareceu um nome complicado, 
+deixa eu te explicar como o git surgiu, e então você vai entender pra quê serve:
+
+Em meados de 2005, um cara chamado Linus Torvalds estava desenvolvendo um projeto Open Source, 
+chamado de Linux, por ser Open Source, pessoas do mundo todo, voluntariamente desenvolviam esse projeto junto com o Torvalds, 
+e acontece que era uma grande dor de cabeça ter um jeito de juntar todos os pedaços de códigos separados que chegavam por email, das 
+mais variadas partes do mundo. Além disso Torvalds precisava garantir que, uma vez que juntasse vários pedaços de código, gerando uma nova versão do Linux,
+ caso esta versão gerada apresentasse algum bug posteriormente, Torvalds poderia voltar para uma versão anterior estável do código.
+
+Foi então que ele começou a desenvolver um projeto novo, que permitisse versionar todo esse código, de maneira distribuída, e focando-se apenas nas 
+mudanças entre uma versão e outra, e não no arquivo inteiro que era gerado a cada versão, o que fez com que Git, entre outras coisas, 
+fosse extremamente performático. Além disso com git era possível ter acesso a todo o histórico de modificações do código, incluindo a autoria de cada linha 
+modificada, resgate de versões anteriores, e desenvolvimento não linear do código, criando ramos, ao qual chamamos em git de “Branch”, paralelos de desenvolvimento.
